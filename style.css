@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+}
+button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 0.8rem;
+}
+a{
+    text-decoration: none;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logoMainMenu{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    display: inline;
+    font-family: matternhorn;
+    font: bolder;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    text-transform: bold;
+    font-size: 0.78 rem; 
+    /* les tailles de police doivent etre en Rem */
+    text-decoration: none;
+    margin-left: 1.3em;
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.displayReservationButtons{
+    background: url(./image/picReservationTicket.jpeg) center/cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    z-index: 2;
+    padding: 1.5rem;
+    margin: 0 1.8rem;
+
+  
+}
+.imageWishText{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    width: 305px;
+    height: 270px;
+    margin-top: 15px;
+    margin-left: 650px;
+}
+.imageReservation{
+    display: flex;
+    justify-content: left;
+    background-size: cover;
+    position: absolute;
+    z-index: 0;
+    width: 1700px;
+    height: 700px
+}
+.texte{
+    display: flex;
+    justify-items: center;
+    font-weight: 600;
+    font-family: inherit;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+    padding-left: 64px;
+    margin-top: 20px;
+    color: aliceblue;
+}
+
+.buttonDisplayReservation{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background: cover;
+    background-color: rgb(255, 196, 0);
+    font-style: 0 0 0 rgb(255, 255, 255);
+    border-style: solid white;
+}
+.known{
+    display: flex;
+    background: cover;
+    color: rgba(255, 251, 240, 0);
+    text-align: center;
+}
+.tableImage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    text-decoration: none;
+   
+
+}
+.tableIm{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    margin: 20px;
+    max-width: 300 px;
+    
+}
+.text{
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    font-style: normal;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+
+.imagesDisneyBlue{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.disneyBlue{
+    background-color: rgb(5, 5, 138);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 1000px;
+}
+.imageDB{
+    display: inline;
+    justify-content: center;
+    text-align: left;
+    border: 2px;
+}
+.bandeaulogo{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+}
+.buttonabo{
+    display: flex;
+    justify-content: center;
+}
